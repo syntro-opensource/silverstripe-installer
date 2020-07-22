@@ -1,0 +1,7 @@
+---
+Name: elemental
+---
+
+Page:
+  extensions:
+    - DNADesign\Elemental\Extensions\ElementalPageExtension
