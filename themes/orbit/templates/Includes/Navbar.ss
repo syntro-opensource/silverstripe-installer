@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top" id="Navbar">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="Navbar">
     <div class="container">
         <a class="navbar-brand">Syntro</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -10,8 +10,5 @@
 
             </ul>
         </div>
-
-
-
     </div>
 </nav>

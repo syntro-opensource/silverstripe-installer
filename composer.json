@@ -24,8 +24,7 @@
             "themes/orbit/*"
         ],
         "public-files": [
-            "assets/*",
-            "favicon.ico"
+            "assets/*"
         ],
         "resources-dir": "_resources"
     },
