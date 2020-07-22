@@ -1,0 +1,10 @@
+include:
+  - project: 'services/ci-jobs'
+    ref: master
+    file: '/suites/test/silverstripe.yml'
+  - project: 'services/ci-jobs'
+    ref: master
+    file: '/suites/test/silverstripe:theme.yml'
+  # - project: 'services/ci-jobs'
+  #   ref: master
+  #   file: '/suites/deploy/silverstripe:shared.yml'
