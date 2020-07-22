@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 * Element holder template which incorporates container
+* Changelog template
 
 ## [1.0.0] - 2020-07-22
 * Initial release
