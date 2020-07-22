@@ -1,0 +1,34 @@
+project:
+  kind: 'Web'
+  services:
+    host:
+      image: git.syntro.ch:5500/docker-container/silverstripe:dev
+      environment:
+        SS_DEFAULT_ADMIN_USERNAME: admin
+        SS_DEFAULT_ADMIN_PASSWORD: admin
+        SS_DATABASE_SERVER: database
+        SS_DATABASE_NAME: ss_default
+        SS_DATABASE_USERNAME: root
+        SS_DATABASE_PASSWORD: silverstripe
+        SS_ENVIRONMENT_TYPE: dev
+      ports:
+        - "80:80"
+      data_dir: /var/www/html
+    database:
+      image: mysql:8
+      environment:
+        MYSQL_ROOT_PASSWORD: silverstripe
+        MYSQL_DATABASE: ss_default
+        MYSQL_USER: silverstripe
+        MYSQL_PASSWORD: silverstripe
+      ports:
+        - "3306:3306"
+      volumes:
+        - name: data
+          target: /var/lib/mysql
+          rw: true
+      command:
+        - --default-authentication-plugin=mysql_native_password
+development:
+  composer: git.syntro.ch:5500/docker-container/silverstripe:dev
+  ignore_platform_reqs: true

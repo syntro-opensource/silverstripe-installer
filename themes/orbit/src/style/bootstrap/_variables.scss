@@ -1,0 +1,16 @@
+// insert own variables here
+$theme-colors: (
+  'primary': #1384c4,
+  'secondary': #5e6366,
+) !default;
+// add other settings below this line
+
+$font-family-sans-serif: roboto, sans-serif !default;
+$headings-font-family: roboto, sans-serif !default;
+
+// add nohing after this line
+@import '~bootstrap/scss/bootstrap';
+
+html {
+  scroll-behavior: smooth;
+}
