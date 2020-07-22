@@ -1,5 +1,5 @@
 {
-    "name": "syntro/installer",
+    "name": "syntro/silverstripe-ssto",
     "type": "silverstripe-recipe",
     "description": "The SilverStripe Framework Installer for Syntro Projects",
     "require": {
