@@ -1,0 +1,30 @@
+{
+    "name": "syntro/installer",
+    "type": "silverstripe-recipe",
+    "description": "The SilverStripe Framework Installer for Syntro Projects",
+    "require": {
+        "php": ">=7.1.0",
+        "silverstripe/recipe-plugin": "^1.2",
+        "silverstripe/recipe-cms": "4.x-dev",
+        "silverstripe/login-forms": "4.x-dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7",
+        "sminnee/phpunit-mock-objects": "^3.4.5"
+    },
+    "extra": {
+        "project-files": [
+            "app/_config/*"
+        ],
+        "public-files": [
+            "assets/*",
+            "favicon.ico"
+        ],
+        "resources-dir": "_resources"
+    },
+    "config": {
+        "process-timeout": 600
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
