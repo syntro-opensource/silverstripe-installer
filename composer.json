@@ -25,7 +25,17 @@
         "project-files": [
             "app/_config/*",
             "app/tests/*",
-            "themes/orbit/*"
+            "themes/orbit/*",
+            ".editorconfig",
+            ".forge-conf.yml",
+            ".gitignore",
+            ".gitlab-ci.yml",
+            "faviconDescription.json",
+            "package.json",
+            "phpcs.xml",
+            "phpstan.neon",
+            "phpunit.xml",
+            "webpack.config.js"
         ],
         "public-files": [
             "assets/*",
