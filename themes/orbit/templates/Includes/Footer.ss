@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row align-items-end">
             <div class="my-2 col-12 col-md-5">
-                <h5 class="no-line">Giblot Food & Health GmbH</h5>
+                <h5 class="no-line">$SiteConfig.Title</h5>
                 <address class="m-0">
 	                   $SiteConfig.Address<br>
                        $SiteConfig.ZIP $SiteConfig.City<br>
@@ -29,10 +29,10 @@
     <div class="container">
         <div class="row">
             <div class="my-2 col-12 col-md-6 text-center text-md-left">
-                &copy $Now.Format(YYYY), Giblot Food & Health GmbH
+                &copy $Now.Format(YYYY), $SiteConfig.Title
             </div>
             <div class="my-2 col-12 col-md-6 text-center text-md-right">
-                Design and Implementation: <a class="text-muted" target="__blank" href="https://syntro.ch">Syntro GmbH</a>
+                Design und Implementation mit <i class="far fa-heart" style="color:#a40909"></i><span class="sr-only">Liebe</span> von <a class="text-muted" target="__blank" href="https://syntro.ch">Syntro GmbH</a>
             </div>
         </div>
 

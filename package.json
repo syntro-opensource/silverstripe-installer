@@ -7,7 +7,7 @@
     "build-prod": "webpack --progress --mode production",
     "favicon": "npm-run-all favicon-create favicon-insert",
     "favicon-create": "real-favicon generate faviconDescription.json faviconData.json themes/orbit/dist/favicons",
-    "favicon-insert": "replace '<!--FAVICONS START-->[^]*<!--FAVICONS END-->' \"<!--FAVICONS START-->$(cat themes/ss-theme/dist/favicons/html_code.html)<!--FAVICONS END-->\" themes/orbit/templates/Page.ss"
+    "favicon-insert": "replace '<!--FAVICONS START-->[^]*<!--FAVICONS END-->' \"<!--FAVICONS START-->$(cat themes/orbit/dist/favicons/html_code.html)<!--FAVICONS END-->\" themes/orbit/templates/Page.ss"
   },
   "browserslist": [
     ">= 0.2%",

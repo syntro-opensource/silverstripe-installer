@@ -14,3 +14,7 @@ $headings-font-family: roboto, sans-serif !default;
 html {
   scroll-behavior: smooth;
 }
+
+body {
+  min-height: 100vh;
+}
