@@ -20,7 +20,8 @@
             "themes/orbit/files"
         ],
         "project-files": [
-            "app/_config/*"
+            "app/_config/*",
+            "themes/orbit/*"
         ],
         "public-files": [
             "assets/*",
